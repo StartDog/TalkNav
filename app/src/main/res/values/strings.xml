@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">get something working</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Miles Talk</string>
+
+    <string name="next">Next</string>
+    <string name="SetHome">SetHome</string>
+    <string name="mode">Visual</string>
+    <string name="todo">MileFeet</string>
+    <string name="exit">Exit</string>
+
+</resources>
