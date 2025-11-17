@@ -379,7 +379,7 @@ private fun checkLocationPermissions() {
                         mdir = "S East"
                     }
                 //Toast.makeText(this@MainActivity,"Bearing: $bearing< ", Toast.LENGTH_LONG).show()
-                if (bearing < 21.0 && bearing > 339.0)  // north
+                if (bearing < 21.0 || bearing > 339.0)  // north
                 {
                     tts.speak("You are heading north.",TextToSpeech.QUEUE_FLUSH,null,null)
                     SystemClock.sleep(4000)
@@ -519,4 +519,5 @@ fun haversine(lat1: Double, lon1: Double, lat2: Double, lon2: Double, unit: Stri
     return R * c
 }
 // ------------------------------------------
+
 }
